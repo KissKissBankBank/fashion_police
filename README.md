@@ -1,10 +1,9 @@
 # Style
 
-> I would make myself head of the style police and we
-> would fight fiercely against sloppiness.
+> Sweatpants are a sign of defeat.
 > — Karl Lagerfeld
 
-KissKissBankBank's guide for maintaining a common style.
+KissKissBankBank's guide for maintaining a common code style.
 
 ## Ruby
 
