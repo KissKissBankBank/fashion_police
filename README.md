@@ -14,7 +14,7 @@ KissKissBankBank's guide for maintaining a common code style.
 
 ## Ruby
 
-Follow the [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide).
+Follow the [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide) with these custom rules:
 
 * <a name="trailing-params-commas"></a>
   Add a comma after the last parameter in a method call when the
