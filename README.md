@@ -68,7 +68,6 @@ Follow Airbnb's [JavaScript](https://github.com/airbnb/javascript) guide.
 
 ### React Component layout
 
-
 * <a name="component-layout--auto-close-component"></a><a name="1.1"></a>
   [1.1](#component-layout--auto-close-component)
   **Auto close component**
