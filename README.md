@@ -68,7 +68,7 @@ Follow the [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide) with 
 
 Follow Airbnb's [JavaScript](https://github.com/airbnb/javascript) guide.
 
-### Component layout
+### React Component layout
 
 
 * <a name="component-layout--auto-close-component"></a><a name="1.1"></a>
