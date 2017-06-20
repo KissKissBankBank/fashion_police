@@ -8,8 +8,6 @@ KissKissBankBank's guide for maintaining a common code style.
 ## Table of contents
 
 - [Ruby](#ruby)
-  - [Trailing params commas](#trailing-params-commas)
-  - [Trailing array commas](#trailing-array-commas)
 - [JavaScript](#javascript)
 
 ## Ruby
