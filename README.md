@@ -41,7 +41,7 @@ Follow the [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide) with 
 
 * <a name="trailing-array-commas"></a>
   Add a comma after the last item of an `Array` or `Hash` literal
-  when the items are not on separate lines.
+  when the items are on separate lines.
   <sup>[[link](#trailing-array-commas)]</sup>
 
   ```Ruby
