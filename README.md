@@ -101,16 +101,15 @@ Follow Airbnb's [JavaScript](https://github.com/airbnb/javascript) guide.
 
   <Component
     foo="bar"
-    bar="foo"
-  >
+    bar="foo">
     Lorem ipsum dolor…
   </Component>
-
 
   // good
   <Component
     foo="bar"
-    bar="foo">
+    bar="foo"
+  >
     Lorem ipsum dolor…
   </Component>
   ```
