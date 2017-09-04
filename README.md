@@ -1,4 +1,4 @@
-# Style
+# Fashion Police
 
 > Sweatpants are a sign of defeat.
 > — Karl Lagerfeld
