@@ -9,6 +9,7 @@ KissKissBankBank's guide for maintaining a common code style.
 
 - [Ruby](#ruby)
 - [JavaScript](#javascript)
+- [CSS](#css)
 
 ## Ruby
 
@@ -112,4 +113,9 @@ Follow Airbnb's [JavaScript](https://github.com/airbnb/javascript) guide.
   >
     Lorem ipsum dolor…
   </Component>
-  ```
+ ```
+  
+## CSS
+
+Follow Airbnb's [CSS](https://github.com/airbnb/css) guide.
+
