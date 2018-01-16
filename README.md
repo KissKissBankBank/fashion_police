@@ -10,6 +10,7 @@ KissKissBankBank's guide for maintaining a common code style.
 - [Ruby](#ruby)
 - [JavaScript](#javascript)
 - [CSS](#css)
+- [General](#general)
 
 ## Ruby
 
@@ -119,3 +120,6 @@ Follow Airbnb's [JavaScript](https://github.com/airbnb/javascript) guide.
 
 Follow Airbnb's [CSS](https://github.com/airbnb/css) guide.
 
+## General
+
+- All comments, commits, committed documentation should be written in english.
