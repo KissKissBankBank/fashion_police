@@ -122,4 +122,4 @@ Follow Airbnb's [CSS](https://github.com/airbnb/css) guide.
 
 ## General
 
-- All comments, commits, committed documentation should be written in english.
+- All comments, commits, committed documentation should be written in English.
