@@ -1,6 +1,11 @@
 AllCops:
   TargetRubyVersion: 2.3
   DisplayCopNames: true
+  Exclude:
+    - db/schema.rb
+
+Rails:
+  Enabled: true
 
 # Do not sort gems in Gemfile, since we are grouping them by functionality.
 Bundler/OrderedGems:
