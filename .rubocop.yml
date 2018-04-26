@@ -44,6 +44,10 @@ Metrics/BlockLength:
   Exclude:
     - spec/**/*
 
+# Allow any number of keyword arguments in methods.
+Metrics/ParameterLists:
+  CountKeywordArgs: false
+
 # Allow indenting multiline chained operations.
 Layout/MultilineMethodCallIndentation:
   EnforcedStyle: indented
