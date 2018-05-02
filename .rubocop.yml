@@ -43,6 +43,9 @@ Documentation:
 Metrics/BlockLength:
   Exclude:
     - spec/**/*
+    - lib/tasks/**/*
+  ExcludedMethods:
+    - included
 
 # Allow indenting multiline chained operations.
 Layout/MultilineMethodCallIndentation:
