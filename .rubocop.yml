@@ -16,7 +16,10 @@ Style/TrailingCommaInArguments:
   EnforcedStyleForMultiline: comma
 
 # Trailing commas are required in multiline arrays and hashes.
-Style/TrailingCommaInLiteral:
+# Old Style/TrailingCommaInLiteral
+Style/TrailingCommaInArrayLiteral:
+  EnforcedStyleForMultiline: comma
+Style/TrailingCommaHashLiteral:
   EnforcedStyleForMultiline: comma
 
 # Allow indenting multiline chained operations.
