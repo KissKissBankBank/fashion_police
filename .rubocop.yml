@@ -43,6 +43,9 @@ Documentation:
 Metrics/BlockLength:
   Exclude:
     - spec/**/*
+    - lib/tasks/**/*
+  ExcludedMethods:
+    - included
 
 # Allow any number of keyword arguments in methods.
 Metrics/ParameterLists:
