@@ -63,8 +63,7 @@ Layout/MultilineMethodCallIndentation:
 Style/NumericPredicate:
   EnforcedStyle: comparison
 
-# This cop incorrectly assumes that `Rails.root.join('foo', 'bar')` works better
-# under Windows than `Rails.root.join('foo/bar')`.
-# Disabled until https://github.com/bbatsov/rubocop/issues/5823 is fixed
+# This cop by default assumes that `Rails.root.join('foo', 'bar')` works
+# better under Windows than `Rails.root.join('foo/bar')`.
 Rails/FilePath:
-  Enabled: false
+  style: slashes
