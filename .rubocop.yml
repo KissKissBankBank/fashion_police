@@ -62,4 +62,4 @@ Style/NumericPredicate:
 # This cop by default assumes that `Rails.root.join('foo', 'bar')` works
 # better under Windows than `Rails.root.join('foo/bar')`.
 Rails/FilePath:
-  style: slashes
+  EnforcedStyle: slashes
