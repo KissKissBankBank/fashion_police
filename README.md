@@ -7,7 +7,7 @@ KissKissBankBank's guide for maintaining a common code style.
 
 ## Ruby
 
-Follow the [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide)
+Follow the [Ruby Style Guide](https://github.com/rubocop-hq/ruby-style-guide)
 with our custom
 [`.rubocop.yml`](https://github.com/KissKissBankBank/fashion_police/blob/master/.rubocop.yml).
 
