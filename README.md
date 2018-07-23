@@ -61,7 +61,7 @@ Follow Airbnb's [JavaScript](https://github.com/airbnb/javascript) guide.
   >
     Lorem ipsum dolor…
   </Component>
- ```
+  ```
   
 ## CSS
 
