@@ -15,7 +15,7 @@ To use it in your project, add to your `Gemfile`:
 
 ```rb
 # KissKissBankBank's shared style configuration
-gem 'fashion_police'
+gem 'fashion_police', require: false
 ```
 
 Then, add to your `.rubocop.yml`:
