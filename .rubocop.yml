@@ -3,9 +3,7 @@ AllCops:
   DisplayCopNames: true
   Exclude:
     - db/schema.rb
-
-Rails:
-  Enabled: true
+    - "**/*/node_modules/**/*"
 
 # Do not sort gems in Gemfile, since we are grouping them by functionality.
 Bundler/OrderedGems:
@@ -31,6 +29,10 @@ Layout/MultilineMethodCallIndentation:
 Metrics/MethodLength:
   Max: 15
 
+# Limit class length (default is 100).
+Metrics/ClassLength:
+  Max: 200
+
 # Do not require `# frozen_string_literal: true` at the top of every file.
 FrozenStringLiteralComment:
   Enabled: false
@@ -43,11 +45,12 @@ Style/AsciiComments:
 Documentation:
   Enabled: false
 
-# Do not verify the length of the blocks in specs.
+# Do not verify the length of the blocks in DSLs.
 Metrics/BlockLength:
   Exclude:
-    - spec/**/*
+    - "**/*/spec/**/*"
     - lib/tasks/**/*
+    - app/admin/**/*
   ExcludedMethods:
     - included
 
@@ -68,3 +71,21 @@ Style/NumericPredicate:
 # better under Windows than `Rails.root.join('foo/bar')`.
 Rails/FilePath:
   EnforcedStyle: slashes
+
+# Do not checks for the use of output safety calls like `html_safe` and `raw`,
+# we know what we are doing.
+Rails/OutputSafety:
+  Enabled: false
+
+# Allow `update_attribute`, we know when to use it.
+Rails/SkipsModelValidations:
+  Enabled: false
+
+# Allow template token "%{foo}" since they are used in translation keys.
+Style/FormatStringToken:
+  Enabled: false
+
+# Do not prefer `lambda` to `->` for DSLs.
+Style/Lambda:
+  Exclude:
+    - app/graph/**/*
