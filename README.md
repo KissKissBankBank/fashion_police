@@ -11,6 +11,21 @@ Follow the [Ruby Style Guide](https://github.com/rubocop-hq/ruby-style-guide)
 with our custom
 [`.rubocop.yml`](https://github.com/KissKissBankBank/fashion_police/blob/master/.rubocop.yml).
 
+To use it in your project, add to your `Gemfile`:
+
+```rb
+# KissKissBankBank's shared style configuration
+gem 'fashion_police', require: false
+```
+
+Then, add to your `.rubocop.yml`:
+
+```yml
+inherit_gem:
+  fashion-police:
+    - .rubocop.yml
+```
+
 ## JavaScript
 
 Follow Airbnb's [JavaScript](https://github.com/airbnb/javascript) guide.
@@ -62,7 +77,7 @@ Follow Airbnb's [JavaScript](https://github.com/airbnb/javascript) guide.
     Lorem ipsum dolor…
   </Component>
   ```
-  
+
 ## CSS
 
 Follow Airbnb's [CSS](https://github.com/airbnb/css) guide.
