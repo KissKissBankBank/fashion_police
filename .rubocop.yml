@@ -15,11 +15,12 @@ Bundler/OrderedGems:
 Style/TrailingCommaInArguments:
   EnforcedStyleForMultiline: comma
 
-# Trailing commas are required in multiline arrays and hashes.
-# Old Style/TrailingCommaInLiteral
+# Trailing commas are required in multiline arrays.
 Style/TrailingCommaInArrayLiteral:
   EnforcedStyleForMultiline: comma
-Style/TrailingCommaHashLiteral:
+
+# Trailing commas are required in multiline hashes.
+Style/TrailingCommaInHashLiteral:
   EnforcedStyleForMultiline: comma
 
 # Allow indenting multiline chained operations.
