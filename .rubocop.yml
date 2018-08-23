@@ -25,6 +25,13 @@ Style/TrailingCommaInHashLiteral:
 Layout/MultilineMethodCallIndentation:
   EnforcedStyle: indented
 
+# Allow not adding parentheses around blocks in DSLs.
+# E.g.:
+#     expect { … }.to change { … }
+Lint/AmbiguousBlockAssociation:
+  Exclude:
+    - spec/**/*
+
 # Limit method length (default is 10).
 Metrics/MethodLength:
   Max: 15
