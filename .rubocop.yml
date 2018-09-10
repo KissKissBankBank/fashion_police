@@ -9,6 +9,10 @@ AllCops:
 Bundler/OrderedGems:
   Enabled: false
 
+# Add a comment before each gem in Gemfile.
+Bundler/GemComment:
+  Enabled: true
+
 # Trailing commas are required on multiline method arguments.
 Style/TrailingCommaInArguments:
   EnforcedStyleForMultiline: comma
