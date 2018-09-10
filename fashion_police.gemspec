@@ -22,8 +22,8 @@ Gem::Specification.new do |spec|
   end
 
   # Rubocop dependency to share the same version among our projects.
-  # >= 0.57 to add "slashes" option to "Rails/FilePath"
-  spec.add_dependency 'rubocop', '>= 0.57'
+  # >= 0.59.0 for "Bundler/GemComment" cop.
+  spec.add_dependency 'rubocop', '>= 0.59'
 
   # Task launcher.
   spec.add_dependency 'rake'
