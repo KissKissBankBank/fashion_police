@@ -22,7 +22,7 @@ Then, add to your `.rubocop.yml`:
 
 ```yml
 inherit_gem:
-  fashion-police:
+  fashion_police:
     - .rubocop.yml
 ```
 
