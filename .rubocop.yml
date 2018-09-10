@@ -93,7 +93,7 @@ Rails/SkipsModelValidations:
   Enabled: false
 
 # Allow creating tables without timestamps, whe know what we are doing.
-Rails/CreateTableWithTimestamps
+Rails/CreateTableWithTimestamps:
   Enabled: false
 
 # Allow template token "%{foo}" since they are used in translation keys.
