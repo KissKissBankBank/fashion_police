@@ -1,6 +1,11 @@
 Gem updates
 ===========
 
+## v1.1.1
+
+Fix:
+- Fix yml parsing
+
 ## v1.1.0
 
 Features:
