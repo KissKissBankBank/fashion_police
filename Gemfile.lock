@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    fashion_police (0.0.1)
+    fashion_police (1.1.1)
       bundler
       rake
       rubocop (>= 0.59)
