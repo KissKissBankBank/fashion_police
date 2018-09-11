@@ -98,7 +98,7 @@ Rails/CreateTableWithTimestamps:
 
 # Allow template token "%{foo}" since they are used in translation keys.
 Style/FormatStringToken:
-  Enabled: false
+  EnforcedStyle: template
 
 # Do not prefer `lambda` to `->` for DSLs.
 Style/Lambda:
