@@ -1,6 +1,11 @@
 Gem updates
 ===========
 
+## unreleased
+
+Features:
+- Prefer template style for "Style/FormatStringToken"
+
 ## v1.1.1
 
 Fix:
