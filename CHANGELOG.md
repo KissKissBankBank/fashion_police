@@ -5,6 +5,7 @@ Gem updates
 
 Features:
 - Prefer template style for "Style/FormatStringToken"
+- Add rubocop rules for RSpec
 
 ## v1.1.1
 

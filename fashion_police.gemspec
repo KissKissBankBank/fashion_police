@@ -15,6 +15,9 @@ Gem::Specification.new do |spec|
   # >= 0.59.0 for "Bundler/GemComment" cop.
   spec.add_dependency 'rubocop', '>= 0.59'
 
+  # RSpec rules
+  spec.add_dependency 'rubocop-rspec'
+
   # Task launcher.
   spec.add_dependency 'rake'
 
