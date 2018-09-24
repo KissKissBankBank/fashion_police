@@ -3,9 +3,14 @@ Gem updates
 
 ## unreleased
 
+## v1.2.0
+
 Features:
 - Prefer template style for "Style/FormatStringToken"
 - Add rubocop rules for RSpec
+
+Fixes:
+- Remove excluded files for AllCops, since they are not inherited
 
 ## v1.1.1
 
