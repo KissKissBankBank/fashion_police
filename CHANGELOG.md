@@ -1,10 +1,11 @@
-Gem updates
-===========
+Rubocop Gem updates
+===================
 
 ## unreleased
 
 Fixes:
 - Prefer `->` to `lambda`.
+- Update rules for RSpec
 
 ## v1.2.0
 

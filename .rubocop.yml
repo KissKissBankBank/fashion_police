@@ -95,6 +95,14 @@ Rails/SkipsModelValidations:
 Rails/CreateTableWithTimestamps:
   Enabled: false
 
+# Allow `let!` to setup test data in specs.
+RSpec/LetSetup:
+  Enabled: false
+
+# Allow a nesting of up to 4 of describe/context blocks (default is 3).
+RSpec/NestedGroups:
+  MaxNesting: 4
+
 # Allow template token "%{foo}" since they are used in translation keys.
 Style/FormatStringToken:
   EnforcedStyle: template
