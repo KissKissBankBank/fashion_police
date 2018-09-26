@@ -3,6 +3,9 @@ Gem updates
 
 ## unreleased
 
+Fixes:
+- Prefer `->` to `lambda`.
+
 ## v1.2.0
 
 Features:

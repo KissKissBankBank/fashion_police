@@ -99,7 +99,6 @@ Rails/CreateTableWithTimestamps:
 Style/FormatStringToken:
   EnforcedStyle: template
 
-# Do not prefer `lambda` to `->` for DSLs.
+# Prefer `->` to `lambda`.
 Style/Lambda:
-  Exclude:
-    - app/graph/**/*
+  EnforcedStyle: literal
