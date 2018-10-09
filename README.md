@@ -30,54 +30,6 @@ inherit_gem:
 
 Follow Airbnb's [JavaScript](https://github.com/airbnb/javascript) guide.
 
-### React Component layout
-
-* <a name="component-layout--auto-close-component"></a><a name="1.1"></a>
-  [1.1](#component-layout--auto-close-component)
-  **Auto close component**
-
-  The layout should be like this:
-
-  ```jsx
-  // bad
-  <Component foo="bar"
-             bar="foo" />
-
-  // good
-  <Component
-    foo="bar"
-    bar="foo"
-  />
-  ```
-
-* <a name="component-layout--block-component"></a><a name="1.2"></a>
-  [1.2](#component-layout--block-component)
-  **Block component**
-
-  The layout should be like this:
-
-  ```jsx
-  // bad
-  <Component foo="bar"
-             bar="foo">
-    Lorem ipsum dolor…
-  </Component>
-
-  <Component
-    foo="bar"
-    bar="foo">
-    Lorem ipsum dolor…
-  </Component>
-
-  // good
-  <Component
-    foo="bar"
-    bar="foo"
-  >
-    Lorem ipsum dolor…
-  </Component>
-  ```
-
 ## CSS
 
 Follow Airbnb's [CSS](https://github.com/airbnb/css) guide.
