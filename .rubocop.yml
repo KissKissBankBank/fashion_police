@@ -103,6 +103,10 @@ RSpec/LetSetup:
 RSpec/NestedGroups:
   MaxNesting: 4
 
+# Allow any number of expectations in an example, for performance.
+RSpec/MultipleExpectations:
+  Enabled: false
+
 # Allow template token "%{foo}" since they are used in translation keys.
 Style/FormatStringToken:
   EnforcedStyle: template
