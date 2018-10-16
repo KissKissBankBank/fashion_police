@@ -6,6 +6,7 @@ Rubocop Gem updates
 Fixes:
 - Prefer `->` to `lambda`.
 - Update rules for RSpec
+- Disable `RSpec/MultipleExpectations`
 
 ## v1.2.0
 
