@@ -5,8 +5,9 @@ Rubocop Gem updates
 
 Fixes:
 - Prefer `->` to `lambda`.
-- Update rules for RSpec
-- Disable `RSpec/MultipleExpectations`
+- Update rules for RSpec.
+- Disable `RSpec/MultipleExpectations`.
+- Disable `Layout/EmptyLinesAroundBlockBody` for specs.
 
 ## v1.2.0
 
