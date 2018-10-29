@@ -5,6 +5,7 @@ Rubocop Gem updates
 
 Fixes:
 - Prefer `->` to `lambda`.
+- Fix `Max` option name for `RSpec/NestedGroups`.
 - Update rules for RSpec.
 - Disable `RSpec/MultipleExpectations`.
 - Disable `Layout/EmptyLinesAroundBlockBody` for specs.
