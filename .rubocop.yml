@@ -28,6 +28,11 @@ Style/TrailingCommaInHashLiteral:
 Layout/MultilineMethodCallIndentation:
   EnforcedStyle: indented
 
+# Allow empty lines around blocks in specs.
+Layout/EmptyLinesAroundBlockBody:
+  Exclude:
+    - spec/**/*
+
 # Allow not adding parentheses around blocks in DSLs.
 # E.g.:
 #     expect { … }.to change { … }
@@ -61,6 +66,7 @@ Metrics/BlockLength:
     - "**/*/spec/**/*"
     - lib/tasks/**/*
     - app/admin/**/*
+    - config/routes.rb
   ExcludedMethods:
     - included
 
