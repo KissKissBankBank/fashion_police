@@ -101,7 +101,7 @@ RSpec/LetSetup:
 
 # Allow a nesting of up to 4 of describe/context blocks (default is 3).
 RSpec/NestedGroups:
-  MaxNesting: 4
+  Max: 4
 
 # Allow any number of expectations in an example, for performance.
 RSpec/MultipleExpectations:
