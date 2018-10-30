@@ -3,6 +3,8 @@ Rubocop Gem updates
 
 ## unreleased
 
+## v1.2.1
+
 Fixes:
 - Prefer `->` to `lambda`.
 - Fix `Max` option name for `RSpec/NestedGroups`.
