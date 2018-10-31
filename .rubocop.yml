@@ -113,6 +113,10 @@ RSpec/NestedGroups:
 RSpec/MultipleExpectations:
   Enabled: false
 
+# Allow using normal test doubles, since they are useful for mocking.
+RSpec/VerifiedDoubles:
+  Enabled: false
+
 # Allow template token "%{foo}" since they are used in translation keys.
 Style/FormatStringToken:
   EnforcedStyle: template
