@@ -5,6 +5,7 @@ Rubocop Gem updates
 
 Fixes:
 - Disable `RSpec/VerifiedDoubles`.
+- Disable `RSpec/AnyInstance`.
 
 ## v1.2.1
 
