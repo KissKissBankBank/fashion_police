@@ -5,6 +5,7 @@ Rubocop Gem updates
 
 Fixes:
 - Disable `RSpec/VerifiedDoubles`.
+- Allow up to 5 RSpec/NestedGroups.
 
 ## v1.2.1
 

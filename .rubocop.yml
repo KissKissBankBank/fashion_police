@@ -105,9 +105,9 @@ Rails/CreateTableWithTimestamps:
 RSpec/LetSetup:
   Enabled: false
 
-# Allow a nesting of up to 4 of describe/context blocks (default is 3).
+# Allow a nesting of up to 5 of describe/context blocks (default is 3).
 RSpec/NestedGroups:
-  Max: 4
+  Max: 5
 
 # Allow any number of expectations in an example, for performance.
 RSpec/MultipleExpectations:
