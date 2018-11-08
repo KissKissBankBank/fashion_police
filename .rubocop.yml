@@ -101,6 +101,10 @@ Rails/SkipsModelValidations:
 Rails/CreateTableWithTimestamps:
   Enabled: false
 
+# Allow using `allow_any_instance_of` for stubbing.
+RSpec/AnyInstance:
+  Enabled: false
+
 # Allow `let!` to setup test data in specs.
 RSpec/LetSetup:
   Enabled: false
