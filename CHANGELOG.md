@@ -1,6 +1,11 @@
 Rubocop Gem updates
 ===================
 
+## v1.2.3
+
+Fixes:
+- Allow up to 10 lines for an rspec example
+
 ## v1.2.2
 
 Fixes:
