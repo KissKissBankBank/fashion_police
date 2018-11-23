@@ -121,7 +121,7 @@ RSpec/MultipleExpectations:
 RSpec/VerifiedDoubles:
   Enabled: false
 
-# Limit method length (default is 5)
+# Limit example length (default is 5)
 RSpec/ExampleLength:
   Max: 10
 
