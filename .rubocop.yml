@@ -121,6 +121,10 @@ RSpec/MultipleExpectations:
 RSpec/VerifiedDoubles:
   Enabled: false
 
+# Limit method length (default is 5)
+RSpec/ExampleLength:
+  Max: 10
+
 # Allow template token "%{foo}" since they are used in translation keys.
 Style/FormatStringToken:
   EnforcedStyle: template
