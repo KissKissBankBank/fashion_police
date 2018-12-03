@@ -125,6 +125,10 @@ RSpec/VerifiedDoubles:
 RSpec/ExampleLength:
   Max: 10
 
+# Prefer `change { User.count }` to `change(User, :count)`.
+RSpec/ExpectChange:
+  EnforcedStyle: block
+
 # Allow template token "%{foo}" since they are used in translation keys.
 Style/FormatStringToken:
   EnforcedStyle: template
