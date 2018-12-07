@@ -3,6 +3,8 @@ Rubocop Gem updates
 
 ## Unreleased
 
+## v1.2.4
+
 Fixes:
 - Enforce block style for `RSpec/ExpectChange`.
 
