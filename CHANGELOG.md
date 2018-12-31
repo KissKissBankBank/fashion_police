@@ -3,6 +3,9 @@ Rubocop Gem updates
 
 ## Unreleased
 
+Features:
+- Update rubocop dependency.
+
 ## v1.2.4
 
 Fixes:

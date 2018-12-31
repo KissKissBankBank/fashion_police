@@ -13,7 +13,7 @@ Gem::Specification.new do |spec|
 
   # Rubocop dependency to share the same version among our projects.
   # >= 0.59.0 for "Bundler/GemComment" cop.
-  spec.add_dependency 'rubocop', '>= 0.59'
+  spec.add_dependency 'rubocop', '>= 0.61.1'
 
   # RSpec rules
   spec.add_dependency 'rubocop-rspec'
