@@ -3,6 +3,26 @@ Rubocop Gem updates
 
 ## Unreleased
 
+Breaking change:
+- Can now inherit `Exclude` directives. For that you need to change your
+  `.rubocop.yml`:
+
+    Replace:
+
+    ```yml
+    inherit_gem:
+      fashion_police:
+        - .rubocop.yml
+    ```
+
+    By:
+
+    ```yml
+    inherit_gem:
+      fashion_police:
+        - default.yml
+    ```
+
 Features:
 - Update rubocop dependency.
 

@@ -25,7 +25,11 @@ Then, add to your `.rubocop.yml`:
 ```yml
 inherit_gem:
   fashion_police:
-    - .rubocop.yml
+    - default.yml
+
+inherit_mode:
+  merge:
+    - Exclude
 ```
 
 ### Release
