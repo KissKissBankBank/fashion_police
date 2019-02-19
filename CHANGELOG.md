@@ -26,6 +26,9 @@ Breaking change:
 Features:
 - Update rubocop dependency.
 
+Fixes:
+- Disable `Rails/Delegate`.
+
 ## v1.2.4
 
 Fixes:
