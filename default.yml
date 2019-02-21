@@ -101,6 +101,11 @@ Rails/SkipsModelValidations:
 Rails/CreateTableWithTimestamps:
   Enabled: false
 
+# Do not enforce the use of `delegate`, since small methods are easier to
+# read.
+Rails/Delegate:
+  Enabled: false
+
 # Allow using `allow_any_instance_of` for stubbing.
 RSpec/AnyInstance:
   Enabled: false

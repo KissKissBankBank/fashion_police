@@ -1,4 +1,4 @@
-Rubocop Gem updates
+RuboCop Gem updates
 ===================
 
 ## Unreleased
@@ -24,7 +24,10 @@ Breaking change:
     ```
 
 Features:
-- Update rubocop dependency.
+- Update RuboCop dependency.
+
+Fixes:
+- Disable `Rails/Delegate`.
 
 ## v1.2.4
 
@@ -56,7 +59,7 @@ Fixes:
 
 Features:
 - Prefer template style for "Style/FormatStringToken"
-- Add rubocop rules for RSpec
+- Add RuboCop rules for RSpec
 
 Fixes:
 - Remove excluded files for AllCops, since they are not inherited
