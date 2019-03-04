@@ -3,6 +3,9 @@ RuboCop Gem updates
 
 ## Unreleased
 
+Fix:
+- Fix BlockLength exclude for specs
+
 ## v2.0.0
 
 Breaking change:
@@ -29,10 +32,10 @@ Breaking change:
         - Exclude
     ```
 
-Features:
+Feature:
 - Update RuboCop dependency.
 
-Fixes:
+Fix:
 - Disable `Rails/Delegate`.
 
 ## v1.2.4
