@@ -63,6 +63,7 @@ Documentation:
 # Do not verify the length of the blocks in DSLs.
 Metrics/BlockLength:
   Exclude:
+    - spec/**/*
     - "**/*/spec/**/*"
     - lib/tasks/**/*
     - app/admin/**/*
