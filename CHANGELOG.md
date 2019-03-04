@@ -3,6 +3,8 @@ RuboCop Gem updates
 
 ## Unreleased
 
+## v2.0.0
+
 Breaking change:
 - Can now inherit `Exclude` directives. For that you need to change your
   `.rubocop.yml`:
@@ -21,6 +23,10 @@ Breaking change:
     inherit_gem:
       fashion_police:
         - default.yml
+
+    inherit_mode:
+      merge:
+        - Exclude
     ```
 
 Features:
