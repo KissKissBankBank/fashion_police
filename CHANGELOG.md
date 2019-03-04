@@ -3,6 +3,8 @@ RuboCop Gem updates
 
 ## Unreleased
 
+## v2.0.1
+
 Fix:
 - Fix BlockLength exclude for specs
 
