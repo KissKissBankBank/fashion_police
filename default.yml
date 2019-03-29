@@ -127,9 +127,13 @@ RSpec/MultipleExpectations:
 RSpec/VerifiedDoubles:
   Enabled: false
 
-# Limit example length (default is 5)
+# Limit example length (default is 5).
 RSpec/ExampleLength:
   Max: 10
+
+# Allow the use of `!!` to force values into booleans.
+Style/DoubleNegation:
+  Enabled: false
 
 # Prefer `change { User.count }` to `change(User, :count)`.
 RSpec/ExpectChange:
