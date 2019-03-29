@@ -6,7 +6,8 @@ RuboCop Gem updates
 ## v2.0.1
 
 Fix:
-- Fix BlockLength exclude for specs
+- Fix BlockLength exclude for specs.
+- Disable `Style/DoubleNegation`.
 
 ## v2.0.0
 
