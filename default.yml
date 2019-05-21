@@ -48,6 +48,11 @@ Metrics/MethodLength:
 Metrics/ClassLength:
   Max: 200
 
+# Allow methods called `set_*` in controllers.
+Naming/AccessorMethodName:
+  Exclude:
+    - app/controllers/**/*
+
 # Do not require `# frozen_string_literal: true` at the top of every file.
 FrozenStringLiteralComment:
   Enabled: false
