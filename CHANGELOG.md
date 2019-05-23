@@ -3,6 +3,9 @@ RuboCop Gem updates
 
 ## Unreleased
 
+Feature:
+- Add rubocop-performance cops.
+
 ## v2.0.1
 
 Fix:
