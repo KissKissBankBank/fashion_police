@@ -18,6 +18,9 @@ Gem::Specification.new do |spec|
   # RSpec rules
   spec.add_dependency 'rubocop-rspec'
 
+  # Performance hints
+  spec.add_dependency 'rubocop-performance'
+
   # Task launcher.
   spec.add_dependency 'rake'
 
