@@ -153,3 +153,7 @@ Style/FormatStringToken:
 # Prefer `->` to `lambda`.
 Style/Lambda:
   EnforcedStyle: literal
+
+# Allow `if !` since `unless` can be harder to read.
+Style/NegatedIf:
+  Enabled: false
