@@ -75,6 +75,7 @@ Metrics/BlockLength:
     - lib/tasks/**/*
     - app/admin/**/*
     - config/routes.rb
+    - Gemfile*
   ExcludedMethods:
     - included
 
