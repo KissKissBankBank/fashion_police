@@ -6,6 +6,9 @@ RuboCop Gem updates
 Feature:
 - Add rubocop-performance cops.
 
+Fix:
+- Allow `if !` instead of `unless`.
+
 ## v2.0.1
 
 Fix:
