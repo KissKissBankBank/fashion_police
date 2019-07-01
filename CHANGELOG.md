@@ -6,6 +6,9 @@ RuboCop Gem updates
 Feature:
 - Add rubocop-performance cops.
 
+Fix:
+- Ignore BlockLength rule in Gemfiles.
+
 ## v2.0.1
 
 Fix:
