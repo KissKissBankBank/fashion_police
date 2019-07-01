@@ -7,12 +7,13 @@ Feature:
 - Add rubocop-performance cops.
 
 Fix:
-- Ignore BlockLength rule in Gemfiles.
+- Allow `if !` instead of `unless`.
+- Ignore `BlockLength` rule in `Gemfile`.
 
 ## v2.0.1
 
 Fix:
-- Fix BlockLength exclude for specs.
+- Fix `BlockLength` exclude for specs.
 - Disable `Style/DoubleNegation`.
 
 ## v2.0.0
