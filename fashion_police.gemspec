@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name = 'fashion_police'
-  spec.version = '2.1.O'
+  spec.version = '2.1.0'
   spec.authors = ['Sunny Ripert']
   spec.email = ['sunny.ripert@kisskissbankbank.com']
 
