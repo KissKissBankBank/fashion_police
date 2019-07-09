@@ -3,6 +3,11 @@ RuboCop Gem updates
 
 ## Unreleased
 
+## v2.2.0
+
+Feature:
+- Add rubocop-rails cops.
+
 ## v2.1.0 (and `v2.1.O` 🙄)
 
 Feature:
