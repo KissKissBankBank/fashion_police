@@ -60,7 +60,7 @@ Naming/AccessorMethodName:
 FrozenStringLiteralComment:
   Enabled: false
 
-# Allow ASCII comments (e.g "…").
+# Allow non-ASCII comments (e.g "…").
 Style/AsciiComments:
   Enabled: false
 
@@ -111,6 +111,11 @@ Rails/SkipsModelValidations:
 Rails/CreateTableWithTimestamps:
   Enabled: false
 
+# Do not force the use of bulk change table when there are several actions in
+# a migration file
+Rails/BulkChangeTable:
+  Enabled: false
+
 # Do not enforce the use of `delegate`, since small methods are easier to
 # read.
 Rails/Delegate:
@@ -127,6 +132,10 @@ RSpec/LetSetup:
 # Allow a nesting of up to 5 of describe/context blocks (default is 3).
 RSpec/NestedGroups:
   Max: 5
+
+# Allow chains message stubbing.
+RSpec/MessageChain:
+  Enabled: false
 
 # Allow any number of expectations in an example, for performance.
 RSpec/MultipleExpectations:
@@ -159,3 +168,8 @@ Style/Lambda:
 # Allow `if !` since `unless` can be harder to read.
 Style/NegatedIf:
   Enabled: false
+
+# Allow simple blocks in ActiveAdmin DSL.
+Style/SymbolProc:
+  Exclude:
+    - app/admin/**/*
