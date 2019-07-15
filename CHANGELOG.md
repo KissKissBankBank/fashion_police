@@ -4,9 +4,11 @@ RuboCop Gem updates
 ## Unreleased
 
 Fixes:
-- Disable `Rails/BulkChangeTable`
-- Disable `RSpec/MessageChain`
-- Disable `Style/SymbolProc` for ActiveAdmin paths
+- Add pessimistic version constraints for `rubocop*` gems.
+- Remove `bundler` dependency.
+- Disable `Rails/BulkChangeTable`.
+- Disable `RSpec/MessageChain`.
+- Disable `Style/SymbolProc` for ActiveAdmin paths.
 
 ## v2.2.0
 

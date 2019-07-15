@@ -12,21 +12,17 @@ Gem::Specification.new do |spec|
   end
 
   # Rubocop dependency to share the same version among our projects.
-  # >= 0.59.0 for "Bundler/GemComment" cop.
-  spec.add_dependency 'rubocop', '>= 0.61.1'
+  spec.add_dependency 'rubocop', '~> 0.72.0'
 
   # Rails rules
-  spec.add_dependency 'rubocop-rails'
+  spec.add_dependency 'rubocop-rails', '~> 2.2.1'
 
   # RSpec rules
-  spec.add_dependency 'rubocop-rspec'
+  spec.add_dependency 'rubocop-rspec', '~> 1.33.0'
 
   # Performance hints
-  spec.add_dependency 'rubocop-performance'
+  spec.add_dependency 'rubocop-performance', '~> 1.4.0'
 
   # Task launcher.
-  spec.add_dependency 'rake'
-
-  # Build tool.
-  spec.add_dependency 'bundler'
+  spec.add_development_dependency 'rake', '~> 12.3.2'
 end
