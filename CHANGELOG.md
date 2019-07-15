@@ -3,8 +3,12 @@ RuboCop Gem updates
 
 ## Unreleased
 
-Fixes:
+## v2.3.0
+
+Feature:
 - Add pessimistic version constraints for `rubocop*` gems.
+
+Fixes:
 - Remove `bundler` dependency.
 - Disable `Rails/BulkChangeTable`.
 - Disable `RSpec/MessageChain`.

@@ -35,7 +35,7 @@ inherit_mode:
 ### Release
 
 Update the version in `fashion_police.gemspec`, update the `CHANGELOG` and
-commit the changes.
+commit the changes with a commit message like `v1.0.0`.
 
 Finally:
 
