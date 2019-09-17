@@ -3,6 +3,9 @@ RuboCop Gem updates
 
 ## Unreleased
 
+Fixes:
+- Disable `Performance/Casecmp`
+
 ## v2.3.0
 
 Feature:
