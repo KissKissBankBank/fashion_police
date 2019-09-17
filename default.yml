@@ -88,6 +88,8 @@ Metrics/ParameterLists:
 Naming/VariableNumber:
   EnforcedStyle: snake_case
 
+# Do not enforce using `str.casecmp('foo') == 0` instead of
+# `str.downcase == 'foo'` for performance reasons.
 Performance/Casecmp:
   Enabled: false
 
