@@ -84,6 +84,9 @@ Metrics/BlockLength:
 Metrics/ParameterLists:
   CountKeywordArgs: false
 
+Metrics/AbcSize:
+  Max: 16
+
 # Prefer `a_variable_1` to `a_variable1`.
 Naming/VariableNumber:
   EnforcedStyle: snake_case
