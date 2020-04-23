@@ -1,7 +1,7 @@
 RuboCop Gem updates
 ===================
 
-## v2.5.0
+## v2.4.1
 
 Fixes:
 - Upgrade rubocop version
