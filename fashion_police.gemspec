@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name = 'fashion_police'
-  spec.version = '2.4.0'
+  spec.version = '2.5.0'
   spec.authors = ['Sunny Ripert']
   spec.email = ['sunny.ripert@kisskissbankbank.com']
 
@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
   end
 
   # Rubocop dependency to share the same version among our projects.
-  spec.add_dependency 'rubocop', '~> 0.72.0'
+  spec.add_dependency 'rubocop', '>= 0.72.0'
 
   # Rails rules
   spec.add_dependency 'rubocop-rails', '~> 2.2.1'
