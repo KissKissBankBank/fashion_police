@@ -1,7 +1,12 @@
 RuboCop Gem updates
 ===================
 
-## Unreleased
+## v2.4.1
+
+Fixes:
+- Upgrade rubocop version
+
+## v2.4.0
 
 Fixes:
 - Disable `Performance/Casecmp`
