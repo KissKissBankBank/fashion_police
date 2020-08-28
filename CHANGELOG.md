@@ -3,8 +3,10 @@ RuboCop Gem updates
 
 ## Unreleased
 
+## v2.4.3
+
 Fixes:
-- Bump TargetRubyVersion to 2.4
+- Bump TargetRubyVersion from 2.3 to 2.4
 
 ## v2.4.2
 
