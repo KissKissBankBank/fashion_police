@@ -3,6 +3,8 @@ RuboCop Gem updates
 
 ## Unreleased
 
+## v2.4.2
+
 Fixes:
 - Upgrade rubocop-performance requirement from ~> 1.4.0 to ~> 1.5.1
 
