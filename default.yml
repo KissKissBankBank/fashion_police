@@ -6,7 +6,6 @@ require:
 AllCops:
   TargetRubyVersion: 2.4
   DisplayCopNames: true
-  NewCops: enable
 
 # Do not sort gems in Gemfile, since we are grouping them by functionality.
 Bundler/OrderedGems:
