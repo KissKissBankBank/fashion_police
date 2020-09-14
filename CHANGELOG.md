@@ -3,6 +3,11 @@ RuboCop Gem updates
 
 ## Unreleased
 
+Fixes:
+- Add departments for all cops in default.yml
+- Enable cops after 0.8
+- removes ruby version
+
 ## v2.4.3
 
 Fixes:
