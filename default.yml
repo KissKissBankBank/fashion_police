@@ -57,7 +57,7 @@ Naming/AccessorMethodName:
     - app/controllers/**/*
 
 # Do not require `# frozen_string_literal: true` at the top of every file.
-FrozenStringLiteralComment:
+Style/FrozenStringLiteralComment:
   Enabled: false
 
 # Allow non-ASCII comments (e.g "…").
@@ -65,7 +65,7 @@ Style/AsciiComments:
   Enabled: false
 
 # Do not comment the class we create, since the name should be self explanatory.
-Documentation:
+Style/Documentation:
   Enabled: false
 
 # Do not verify the length of the blocks in DSLs.
